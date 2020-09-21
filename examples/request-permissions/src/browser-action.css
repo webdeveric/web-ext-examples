@@ -1,0 +1,57 @@
+html,
+body {
+  min-width: 200px;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  background:#FFF;
+  padding: .15em;
+  box-shadow: 0 0 5px -2px #000;
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row + .row {
+  border-top: 1px solid #DDD;
+}
+
+#requestButton {
+  flex: 1 1 auto;
+  margin: 0 auto;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#requestButton:disabled {
+  background: lime;
+}
+
+#code {
+  display: block;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  white-space: pre;
+  font-size: .75rem;
+}
+
+#code.has-permissions {
+  border: 2px solid green;
+}

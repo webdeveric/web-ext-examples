@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "web-ext-examples-request-permissions",
+  "version": "0.1.0",
+  "description": "",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "web-ext-examples-request-permissions@webdeveric.com"
+    }
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "optional_permissions": [
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": "grey.svg",
+    "default_title": "Request Permissions",
+    "default_popup": "browser-action.html"
+  },
+  "background": {
+    "page": "background.html"
+  }
+}

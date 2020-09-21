@@ -1,0 +1,16 @@
+{
+  "name": "@webdeveric/web-ext-examples",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Web extension examples",
+  "scripts": {
+    "lint": "eslint ./examples --fix"
+  },
+  "keywords": [],
+  "author": "Eric King <eric@webdeveric.com> (https://webdeveric.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-webdeveric": "^0.7.0"
+  }
+}
