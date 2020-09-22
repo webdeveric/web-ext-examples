@@ -1,0 +1,14 @@
+{
+  "name": "@webdeveric/web-ext-examples-cookies",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "web-ext run",
+    "build": "web-ext build"
+  },
+  "author": "Eric King <eric@webdeveric.com> (https://webdeveric.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^5.0.0"
+  }
+}
