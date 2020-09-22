@@ -121,7 +121,7 @@ export function isRequestableUrl( url ) {
 
     if (
       ! validScheme.test(protocol) ||
-      ( protocol !== 'file:' && ! validHostname.test(hostname) ),
+      ( protocol !== 'file:' && ! validHostname.test(hostname) ) ||
       ! validPathname.test(pathname)
     ) {
       return false;
