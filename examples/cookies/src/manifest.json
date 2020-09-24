@@ -8,9 +8,11 @@
       "id": "web-ext-examples-cookies@webdeveric.com"
     }
   },
+  "incognito": "spanning",
   "permissions": [
     "*://*.reddit.com/*",
-    "cookies"
+    "cookies",
+    "privacy"
   ],
   "background": {
     "page": "background.html"

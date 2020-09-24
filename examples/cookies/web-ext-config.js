@@ -10,6 +10,7 @@ module.exports = {
   run: {
     startUrl: [
       'about:devtools-toolbox?type=extension&id=web-ext-examples-cookies%40webdeveric.com',
+      'about:config',
     ],
   },
   ignoreFiles: [ 'package-lock.json' ],
