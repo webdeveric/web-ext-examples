@@ -6,11 +6,15 @@
   "scripts": {
     "lint": "eslint ./examples --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "web-extension",
+    "firefox-extension",
+    "chrome-extension"
+  ],
   "author": "Eric King <eric@webdeveric.com> (https://webdeveric.com/)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.9.0",
+    "eslint": "^7.10.0",
     "eslint-config-webdeveric": "^0.7.0"
   }
 }
